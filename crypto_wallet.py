@@ -10,9 +10,8 @@ from web3.auto.infura.kovan import w3
 from web3 import middleware
 from web3.gas_strategies.time_based import medium_gas_price_strategy
 
-################################################################################
-# Wallet functionality
 
+# Wallet functionality
 def generate_account():
     """Create a digital wallet and Ethereum account from a mnemonic seed phrase."""
     # Fetch mnemonic from environment variable.
